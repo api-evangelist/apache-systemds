@@ -1,0 +1,35 @@
+aid: apache-systemds
+name: Apache SystemDS
+description: >-
+  Apache SystemDS is an open-source ML system for the end-to-end data science lifecycle from data integration to model training and deployment. It provides a declarative machine learning language (DML) and automatic optimization.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Machine Learning
+  - Data Science
+  - Distributed Computing
+  - AutoML
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-systemds/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-systemds:apache-systemds
+    name: Apache SystemDS
+    description: >-
+      SystemDS provides the DML (Declarative Machine Learning) scripting language, a Python API for ML pipeline development, and a Java API for executing ML algorithms with automatic optimization for distributed execution.
+    humanURL: https://systemds.apache.org/docs/
+    tags:
+      - DML
+      - Python
+      - Java
+      - Machine Learning
+    properties:
+      - type: Documentation
+        url: https://systemds.apache.org/docs/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
