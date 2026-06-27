@@ -39,10 +39,10 @@ apis:
     properties:
       - type: Documentation
         url: https://apache.github.io/systemds/api/python/
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/systemds/
         title: Python Package (PyPI)
-      - type: SDK
+      - type: SDKs
         url: https://search.maven.org/search?q=org.apache.systemds
         title: Java/Scala Maven Package
 common:
