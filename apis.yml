@@ -46,6 +46,10 @@ apis:
         url: https://search.maven.org/search?q=org.apache.systemds
         title: Java/Scala Maven Package
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-systemds-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-systemds-domain-security.yml
   - type: GitHubRepository
     url: https://github.com/apache/systemds
   - type: Documentation
