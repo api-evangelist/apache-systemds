@@ -7,9 +7,21 @@ description: >-
   execution backends (local, distributed Spark), and a Python API (SystemDS Python). SystemDS
   is an Apache Software Foundation top-level project designed for scalable ML workflows.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-systemds.png
 tags:
   - AutoML
   - Data Science
