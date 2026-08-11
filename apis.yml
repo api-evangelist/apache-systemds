@@ -58,6 +58,13 @@ apis:
         url: https://search.maven.org/search?q=org.apache.systemds
         title: Java/Scala Maven Package
 common:
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/systemds/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/systemds/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-systemds-vulnerability-disclosure.yml
   - type: DomainSecurity
