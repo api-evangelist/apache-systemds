@@ -26,6 +26,12 @@ tags:
   - AutoML
   - Data Science
   - Distributed Computing
+  - Machine-Learning
+  - Open-Source
+tags_raw:
+  - AutoML
+  - Data Science
+  - Distributed Computing
   - Machine Learning
   - Open Source
 created: '2026-03-16'
@@ -44,6 +50,11 @@ apis:
       backend via gRPC for distributed execution on Apache Spark.
     humanURL: https://apache.github.io/systemds/api/python/
     tags:
+      - Python
+      - Machine-Learning
+      - Data Science
+      - Distributed Computing
+    tags_raw:
       - Python
       - Machine Learning
       - Data Science
