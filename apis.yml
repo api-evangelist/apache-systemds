@@ -38,14 +38,16 @@ tags:
 - AutoML
 - Data Science
 - Distributed Computing
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 tags_raw:
 - AutoML
 - Data Science
 - Distributed Computing
 - Machine Learning
 - Open Source
+- Machine-Learning
+- Open-Source
 created: '2026-03-16'
 modified: '2026-09-16'
 url: https://raw.githubusercontent.com/api-evangelist/apache-systemds/refs/heads/main/apis.yml
@@ -61,7 +63,7 @@ apis:
   humanURL: https://apache.github.io/systemds/api/python/
   tags:
   - Python
-  - Machine-Learning
+  - Machine Learning
   - Data Science
   - Distributed Computing
   tags_raw:
@@ -69,6 +71,7 @@ apis:
   - Machine Learning
   - Data Science
   - Distributed Computing
+  - Machine-Learning
   properties:
   - type: Documentation
     url: https://apache.github.io/systemds/api/python/
