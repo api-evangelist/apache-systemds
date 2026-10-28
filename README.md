@@ -1,4 +1,4 @@
-# Apache SystemDS (apache-systemds)
+# Apache SystemDS
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,76 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apache SystemDS is an open-source ML system for the end-to-end data science lifecycle from data integration and feature engineering to model training and deployment. It provides a declarative machine learning language (DML), automatic optimization, and a Python API for scalable ML workflows.
+Apache SystemDS is an open-source ML system for the end-to-end data science lifecycle from data integration, cleaning, and feature engineering to model training, debugging, and deployment. It provides a declarative machine learning language (DML), automatic optimization for different execution backends (local, distributed Spark), and a Python API (SystemDS Python). SystemDS is an Apache Software Foundation top-level project designed for scalable ML workflows.
 
-**URL:** [https://systemds.apache.org/](https://systemds.apache.org/)
+**Areas:** AutoML · Data Science · Distributed Computing · Machine Learning · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache SystemDS on APIs.io
 
-## Tags:
+Everything profiled for Apache SystemDS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-systemds/](https://apis.io/providers/apache-systemds/)** — or go straight to one of the APIs or properties below.
 
- - AutoML, Data Science, Distributed Computing, Machine Learning, Open Source
+### APIs (1)
 
-## Timestamps
+- [Apache SystemDS Python API](https://apis.io/apis/apache-systemds/apache-systemds-python-api/) — The SystemDS Python API (systemds) provides a Python interface for building end-to-end ML pipelines. It includes Matrix and Frame types for distributed data…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache SystemDS Python API
-Python interface for building end-to-end ML pipelines with Matrix and Frame types, 50+ built-in algorithms, federated learning, and distributed execution on Apache Spark.
+#### Security (2)
 
-**Human URL:** [https://apache.github.io/systemds/api/python/](https://apache.github.io/systemds/api/python/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Systemds Domain Security](https://apis.io/security/apache-systemds/apache-systemds-domain-security/)
+- [Apache Systemds Vulnerability Disclosure](https://apis.io/security/apache-systemds/apache-systemds-vulnerability-disclosure/)
 
- - Python, Machine Learning, Data Science, Distributed Computing
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://apache.github.io/systemds/api/python/)
-- [Python Package (PyPI)](https://pypi.org/project/systemds/)
-- [Java/Scala Maven Package](https://search.maven.org/search?q=org.apache.systemds)
+- [Apache Systemds Plans Pricing](https://apis.io/plans/apache-systemds/apache-systemds-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [GitHubRepository](https://github.com/apache/systemds)
+Published request limits.
+
+- [Apache Systemds Rate Limits](https://apis.io/rate-limits/apache-systemds/apache-systemds-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apache Systemds Finops](https://apis.io/finops/apache-systemds/apache-systemds-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apache.github.io)
 - [Documentation](https://apache.github.io/systemds/)
-- [Portal](https://systemds.apache.org/)
-- [GettingStarted](https://apache.github.io/systemds/get-started)
-- [ReleaseNotes](https://github.com/apache/systemds/releases)
-- [TermsOfService](https://www.apache.org/licenses/)
+- [Getting started](https://apache.github.io/systemds/get-started)
+- [Terms of service](https://www.apache.org/licenses/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Declarative ML Language (DML) | High-level R-like language for specifying ML algorithms with automatic optimization. |
-| Automatic Optimization | Query optimization, memory management, and execution plan selection for ML workloads. |
-| Federated Learning | Privacy-preserving federated ML across distributed data silos without data sharing. |
-| Built-In Algorithms | 50+ built-in ML algorithms including linear models, neural networks, and clustering. |
-| Python API | Pythonic API for ML pipeline development with lazy evaluation and distributed execution. |
-| Data Cleaning Pipelines | Automated data cleaning, imputation, encoding, and normalization pipelines. |
+**Kin Score 23.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Distributed ML Training | Train large-scale ML models distributed across Apache Spark clusters. |
-| Federated Machine Learning | Cross-silo federated learning for privacy-sensitive healthcare and finance data. |
-| End-to-End ML Pipelines | Integrated data preparation, feature engineering, training, and serving pipelines. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apache Spark | Native Spark backend for distributed matrix operations and ML training. |
-| Python | Python API with NumPy-compatible Matrix type for local and distributed computation. |
-| Kubernetes | Kubernetes deployment support for SystemDS runtime via Helm charts. |
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-systemds/](https://apis.io/providers/apache-systemds/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache SystemDS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-systemds/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
